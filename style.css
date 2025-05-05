@@ -1,0 +1,93 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8e1;
+    margin: 0;
+    color: #5d4037;
+}
+header {
+    background-color: #ff6f00;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+}
+header img {
+    border-radius: 8px;
+}
+header h1 {
+    margin: 0;
+    text-transform: capitalize;
+    font-size: 1.8em;
+    flex-grow: 1;
+}
+header h6 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 0.9em;
+    opacity: 0.85;
+}
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+footer {
+    background-color: #ff6f00;
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 0.9em;
+    margin-top: 40px;
+}
+.krevetka {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.chill {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bavarskaya {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pizza {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.picked {
+    background-color: #ff8960;
+}
+.order-btn {
+    background-color: #ff6f00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+.krevetka:hover, .chill:hover, .bavarskaya:hover {
+    background-color: #ff8960;
+    transform: scale(1.05);
+}
+.order-btn:hover {
+    background-color: #e65100;
+}
+.krevetka, .chill, .bavarskaya {
+    transition: transform 0.2s, background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+header {
+    background: linear-gradient(45deg, #ff6f00, #ff8f00);
+}
