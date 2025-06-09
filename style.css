@@ -41,25 +41,25 @@ footer {
     font-size: 0.9em;
     margin-top: 40px;
 }
-.krevetka {
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: transform 0.2s, background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.chill {
-    border-radius: 20px;
+.pizzas {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    align-items: center
 }
-.bavarskaya {
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.pizza {
+.container {
     display: flex;
     justify-content: center;
     align-items: center
@@ -77,16 +77,12 @@ footer {
     margin-top: 10px;
     transition: background-color 0.3s;
 }
-.krevetka:hover, .chill:hover, .bavarskaya:hover {
+.card:hover {
     background-color: #ff8960;
     transform: scale(1.05);
 }
 .order-btn:hover {
     background-color: #e65100;
-}
-.krevetka, .chill, .bavarskaya {
-    transition: transform 0.2s, background-color 0.3s;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 header {
     background: linear-gradient(45deg, #ff6f00, #ff8f00);
